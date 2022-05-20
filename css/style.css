@@ -85,6 +85,14 @@ p{
     background-repeat: no-repeat;
 }
 
+.mobile{
+    display: block;
+}
+
+.desktop{
+    display: none;
+}
+
 .overlay img{
     width: 100%;
 }
@@ -304,6 +312,13 @@ svg:hover path{
 }
 
 @media(min-width: 900px){
+    .mobile{
+        display: none;
+    }
+    
+    .desktop{
+        display: block;
+    }
     .macbook .flex-wrapper{
         display: flex;
         flex-direction: row;
